@@ -1,0 +1,37 @@
+name: DSA C++ CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install compiler
+        run: sudo apt-get update && sudo apt-get install -y g++
+
+      - name: Compile all standalone C++ files
+        run: |
+          set -e
+
+          # list folders
+          FOLDERS=(
+            sorting
+            searching
+          )
+
+          for folder in "${FOLDERS[@]}"; do
+            if [ -d "$folder" ]; then
+              echo "Checking $folder"
+
+              find "$folder" -name "*.cpp" | while read file; do
+                echo "Compiling $file"
+                g++ -std=c++17 "$file" -o /tmp/test.out || exit 1
+              done
+            fi
+          done
