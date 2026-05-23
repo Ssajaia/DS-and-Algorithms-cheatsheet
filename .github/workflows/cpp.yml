@@ -23,6 +23,7 @@ jobs:
           FOLDERS=(
             sorting
             searching
+            heap
           )
 
           for folder in "${FOLDERS[@]}"; do
