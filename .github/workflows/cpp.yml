@@ -26,6 +26,7 @@ jobs:
             heap
             stack_queue
             linked_list
+            arrays
           )
 
           for folder in "${FOLDERS[@]}"; do
