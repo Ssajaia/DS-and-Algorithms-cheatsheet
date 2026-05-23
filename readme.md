@@ -10,6 +10,8 @@ A structured C++ repository for learning and practicing Data Structures and Algo
 - Sorting Algorithms
 - Stack
 - Queue
+- greedy algorithms
+- dynamic programming
 
 ## Currently Working On
 
@@ -17,8 +19,6 @@ A structured C++ repository for learning and practicing Data Structures and Algo
 - Binary Search Trees
 - Graphs
 - bit manipulation
-- greedy algorithms
-- dynamic programming
 
 ## Project Structure
 

@@ -20,14 +20,17 @@ jobs:
           set -e
 
           FOLDERS=(
-            sorting
-            searching
-            heap
-            stack_queue
-            linked_list
             arrays
-            greedy
+            bit_manipulation
             dynamic_programming
+            forest
+            graphs
+            greedy
+            heap
+            linked_list
+            searching
+            sorting
+            stack_queue
           )
 
           for folder in "${FOLDERS[@]}"; do
