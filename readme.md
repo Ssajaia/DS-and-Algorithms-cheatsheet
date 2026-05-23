@@ -17,6 +17,8 @@ A structured C++ repository for learning and practicing Data Structures and Algo
 - Binary Search Trees
 - Graphs
 - bit manipulation
+- greedy algorithms
+- dynamic programming
 
 ## Project Structure
 
@@ -26,24 +28,5 @@ Each topic contains:
 - Common algorithms and patterns
 - Interview-focused examples
 
-## Goals
-
-- Clean and reusable implementations
-- Modern C++ solutions
-- Easy interview revision
-- Organized learning resource
-- GitHub-ready structure
-
-## Tech Stack
-
-- C++17
-- STL
-- Markdown documentation
-
-## Notes
-
-- No unnecessary abstractions
-- No comments inside code files
-- Focus on readability and correctness
 
 If you find this repository useful, consider starring it.
