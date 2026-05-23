@@ -12,13 +12,15 @@ A structured C++ repository for learning and practicing Data Structures and Algo
 - Queue
 - greedy algorithms
 - dynamic programming
-
-## Currently Working On
-
 - Arrays
 - Binary Search Trees
 - Graphs
 - bit manipulation
+
+
+## Currently Working On
+
+- repo is finished
 
 ## Project Structure
 
