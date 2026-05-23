@@ -25,6 +25,7 @@ jobs:
             searching
             heap
             stack_queue
+            linked_list
           )
 
           for folder in "${FOLDERS[@]}"; do
