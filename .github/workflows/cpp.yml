@@ -16,10 +16,9 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y g++
 
       - name: Compile all standalone C++ files
-        run: |
+        run: | 
           set -e
 
-          # list folders
           FOLDERS=(
             sorting
             searching
@@ -27,6 +26,8 @@ jobs:
             stack_queue
             linked_list
             arrays
+            greedy
+            dynamic_programming
           )
 
           for folder in "${FOLDERS[@]}"; do
