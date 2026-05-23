@@ -16,6 +16,7 @@ A structured C++ repository for learning and practicing Data Structures and Algo
 - Arrays
 - Binary Search Trees
 - Graphs
+- bit manipulation
 
 ## Project Structure
 
